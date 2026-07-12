@@ -9,7 +9,7 @@ public class Driver {
 
 	//	System.out.println(city); // Bangalore
 		
-		StringBuffer  sb = new StringBuilder("Bangalore");
+		StringBuilder  sb = new StringBuilder("Bangalore");
 		
 		sb.append(" India"); // --> Bangalore India --> No new object 
 		
