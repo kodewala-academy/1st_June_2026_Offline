@@ -7,7 +7,7 @@ public class Driver1 {
 		
       UserRegistration registration = new UserRegistration();
       
-      registration.doRegistration("4321-1234-5678-0987");
+      registration.doRegistration("4321-1234-5678-0987"); // decision taken at the time of compilation 
       
       registration.doRegistration(4321, "0987-6543-32145");
 	}
