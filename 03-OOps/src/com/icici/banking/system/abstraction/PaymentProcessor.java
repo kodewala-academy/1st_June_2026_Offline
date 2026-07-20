@@ -1,5 +1,6 @@
 package com.icici.banking.system.abstraction;
 
+// Gaurav
 public class PaymentProcessor {
 	
 	// exposing the required.
@@ -31,7 +32,7 @@ public class PaymentProcessor {
 		return true;
 	}
 
-	private int getBalanceFromDB() {
+	public int getBalanceFromDB() {
 		return 1200;
 	}
 	
