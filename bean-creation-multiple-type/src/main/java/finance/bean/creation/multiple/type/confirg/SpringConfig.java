@@ -11,7 +11,6 @@ import finance.bean.creation.multiple.type.Employee;
 @ComponentScan(basePackages = "finance.bean.creation.multiple.type")
 public class SpringConfig {
 	@Bean("EMP1")
-
 	public Employee employee1() {
 		Employee emp = new Employee("Kodewala", "Academy");
 		return emp;
